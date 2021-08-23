@@ -1,42 +1,59 @@
-*{
+html{
+    background-color: #364451;
+    padding:10px 30px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #011627;
+    background-color: white;
+}
+#navigation {
+    list-style: none;
+    background-color: #011627;
+    height: 60px;
+}
+#navigation li{
+    float: left;
+    padding: 20px 12px;
+}
+#navigation li a {
+    color: white;
     text-decoration: none;
-    margin: 0px;
-    padding: 0px;
 }
-body {
-    margin:40px;
-    background-color: #0A192F;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    line-height: 200%;
-}
-#navigation{
-    float: right;
-    margin-right: 40px;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
-}
-nav ul li{
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 40px;
-    margin: 0 10px;
-    padding: 0;
-}
-nav ul a{
-    color: white;
-    font-weight: lighter;
-}
-nav ul a:hover{
-    color: #64FFDA;
-}
-#contact-me{
-    float:left;
+#navigation li a:hover{
+    color : #D4373D;
 }
 #profile{
-    word-spacing: 10px;
+    padding: 0px 30px;
+}
+#profile h1, h4{
+    line-height: 8px;
+}
+#profile img{
+    width: 130px;
+    height: 160px;
+    border: 3px solid #011627;
+}
+#profile ul li a{
+    text-decoration: none;
+    color: #011627;
+}
+#profile ul li a:hover{
+    color: #D4373D;
+}
+#about-me{
+    padding: 0px 30px;
 }
 #work-experience{
-    word-spacing: 10px;
-    align-items: center;
+    padding: 0px 30px;
+}
+#education{
+    padding: 0px 30px;
+}
+#skills{
+    padding: 0px 30px;
+}
+#contact-me{
+    padding: 0px 30px;
 }
