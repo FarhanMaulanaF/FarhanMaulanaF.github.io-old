@@ -44,16 +44,31 @@ body{
 }
 #about-me{
     padding: 0px 30px;
+    line-height: 8px;
 }
 #work-experience{
     padding: 0px 30px;
 }
 #education{
     padding: 0px 30px;
+    line-height: 8px;
 }
 #skills{
     padding: 0px 30px;
 }
 #contact-me{
     padding: 0px 30px;
+}
+footer{
+    background-color: #011627;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #D4373D;
 }
